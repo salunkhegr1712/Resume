@@ -1,27 +1,63 @@
-body {
+body {}
 
-}
 .navbar {
-  padding:0.5% 10%;
-  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
 }
-.navbar-brand {
+
+.container-fluid {
+  padding: 0 0;
+}
+
+#new {
+  font-style: italic;
   font-size: 2rem;
+  font-weight: 600;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.navbar:hover {
+background-color:#ffa400;
+}
+li {
+  padding-left: 1.5%;
+  padding-right: 1.5%;
 }
 .nav-link {
-  font-size: 1.2rem;
-  padding-right: 3%;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
-.nav-item {
-  padding: 0%;
+.nav-item:hover, #new:hover{
+  background-color:#ffa400;
 }
-.btt {
-  color: black;
+.nav-link:hover, #new:hover{
+  color: white;
 }
 
+nav:hover{
+  color: red;
+}
+.bttt {
+  color: black;
+}
+.btt {
+  margin-top: 1%;
+  background-color: #ffa400;
+  padding: .5% 6%;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: white;
+
+}
+
+.btt:hover {
+  color: #ffa400;
+  background-color:  white;
+}
 .navbar-brand {
   font-weight: lighter;
 }
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   height: 7rem;
@@ -30,8 +66,7 @@ body {
   background-image: none;
 }
 
-.carousel-control-next-icon:after
-{
+.carousel-control-next-icon:after {
   content: '⇒';
   font-size: 4rem;
   color: white;
@@ -41,4 +76,22 @@ body {
   content: '⇐';
   font-size: 4rem;
   color: white;
+}
+
+.carousel-caption {
+  align-items: center;
+  margin-top: 4rem;
+  margin-bottom: 15%;
+}
+
+.csg {
+
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+em {
+  font-size: 1.2rem;
 }
