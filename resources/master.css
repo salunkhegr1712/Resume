@@ -1,0 +1,44 @@
+body {
+
+}
+.navbar {
+  padding:0.5% 10%;
+  color: white;
+}
+.navbar-brand {
+  font-size: 2rem;
+}
+.nav-link {
+  font-size: 1.2rem;
+  padding-right: 3%;
+}
+.nav-item {
+  padding: 0%;
+}
+.btt {
+  color: black;
+}
+
+.navbar-brand {
+  font-weight: lighter;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 7rem;
+  width: 7rem;
+  outline: black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '⇒';
+  font-size: 4rem;
+  color: white;
+}
+
+.carousel-control-prev-icon:after {
+  content: '⇐';
+  font-size: 4rem;
+  color: white;
+}
