@@ -1,8 +1,8 @@
 body {}
 
 .navbar {
-  padding-left: 10%;
-  padding-right: 10%;
+  padding: 0 15%;
+  position: sticky;
 }
 
 .container-fluid {
@@ -10,36 +10,44 @@ body {}
 }
 
 #new {
-  font-style: italic;
-  font-size: 2rem;
-  font-weight: 600;
-  padding-left: 2%;
-  padding-right: 2%;
+  font-family: 'Noto Sans', sans-serif;
+  color: white;
+  font-size: 2.3rem;
+  font-weight: bolder;
+  padding-left: 1%;
+  padding-right: 1%;
 }
-.navbar:hover {
-background-color:#ffa400;
-}
+
 li {
   padding-left: 1.5%;
   padding-right: 1.5%;
 }
+
 .nav-link {
-  font-size: 1.3rem;
-  font-weight: 600;
+  font-size: 1.4rem;
+  font-weight: 700;
 }
-.nav-item:hover, #new:hover{
-  background-color:#ffa400;
+.nav-item {
+  padding: 1% 0;
 }
-.nav-link:hover, #new:hover{
+.nav-link:hover {
+  background-color: #ffa400;
+}
+.collapse {
+  padding: .5% 0;
+}
+.nav-link:hover {
   color: white;
 }
 
-nav:hover{
-  color: red;
+#new:hover {
+  color: #ffa400;
 }
+
 .bttt {
   color: black;
 }
+
 .btt {
   margin-top: 1%;
   background-color: #ffa400;
@@ -47,15 +55,11 @@ nav:hover{
   font-size: 1.3rem;
   font-weight: bold;
   color: white;
-
 }
 
 .btt:hover {
   color: #ffa400;
-  background-color:  white;
-}
-.navbar-brand {
-  font-weight: lighter;
+  background-color: white;
 }
 
 .carousel-control-prev-icon,
@@ -84,14 +88,37 @@ nav:hover{
   margin-bottom: 15%;
 }
 
-.csg {
-
-}
-
 h2 {
+  font-family: 'Architects Daughter', cursive;
+  font-weight: bold;
   font-size: 3.5rem;
 }
 
 em {
   font-size: 1.2rem;
+}
+
+.next {
+  color: #;
+  padding: 5% 0;
+  text-align: center;
+}
+.image{
+  width: 15%;
+  padding-bottom: 2%;
+  border-radius: 10rem;
+}
+
+h3 {
+  font-family: 'Architects Daughter', cursive;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #ffa400;
+  padding: 1% 0;
+}
+
+p {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  line-height: 2;
 }

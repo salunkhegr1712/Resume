@@ -4,85 +4,104 @@
 <head>
   <meta charset="utf-8">
   <!-- including the bootstrap -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,200&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="resources/master.css">
+
   <title></title>
 </head>
 
 <body>
 
-  <div class="container-fluid">
-    <!-- here we created the navigation bar for our Website -->
-    <nav class="navbar navbar-expand-lg">
-      <a href="#" class="navbar-brand" id="new">Ghansham's Website</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nvv1" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="nvv1">
-        <ul class="navbar-nav ms-auto">
-          <!-- navbar-nav will remove the unordered blocks or bullets which we see specifically -->
-          <!-- nav-item is list attribute so  that it can be used for showing the textsis in a navigation bar -->
-          <li class="nav-item"><a href="#topside" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="#Portfolio" class="nav-link">Portfolio</a></li>
-          <li class="nav-item"><a href="#contact" class="nav-link">Contacts</a></li>
-        </ul>
+  <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+    <a href="#" class="navbar-brand" id="new">Ghansham's Website</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nvv1" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="nvv1">
+      <ul class="navbar-nav ms-auto">
+        <!-- navbar-nav will remove the unordered blocks or bullets which we see specifically -->
+        <!-- nav-item is list attribute so  that it can be used for showing the textsis in a navigation bar -->
+        <li class="nav-item"><a href="#topside" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#Portfolio" class="nav-link">Portfolio</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contacts</a></li>
+      </ul>
 
-      </div>
-
-    </nav>
-    <!-- so here we are going to  build a slide show with the use of the carasoul and it is automated and not has
-    any kind of manual support -->
-    <div class="carousel csg slide" id="carousel-non-automated" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <!-- yoiu have to kleep atleast one active so that slideshow can run properly -->
-        <div class="carousel-item active">
-          <img src="resources/Slide/1.jpg" class="d-block w-100" alt="Coding1">
-          <div class="carousel-caption d-none d-md-block">
-            <h2 > Ghansham Salunkhe </h2>
-            <p><em>Welcome to My site if want to know more about me below</em> </p>
-            <a href="#about" class="btt templatemo-slider-btn btn btn-default">Click Here</a>
-          </div>
-        </div>
-
-
-        <div class="carousel-item">
-          <img src="resources/Slide/2.jpg" class="d-block w-100" alt="Coding2">
-          <div class="carousel-caption d-none d-md-block">
-            <h2 >Coding Skills</h2>
-            <p><em>If you want to know about my skills in Programming</em></p>
-            <a href="#about" class="btt templatemo-slider-btn btn btn-default">Click Here</a>
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <img src="resources/Slide/3.jpg" class="d-block w-100" alt="Coding3">
-          <div class="carousel-caption d-none d-md-block">
-            <h2  >My Works</h2>
-            <p><em>If you want to know about my works in Programming</em> </p>
-            <a href="#about" class="btt templatemo-slider-btn btn btn-default">Click Here</a>
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <img src="resources/Slide/4.jpg" class="d-block w-100" alt="Coding3">
-          <div class="carousel-caption d-none d-md-block">
-            <h2> Contacts </h2>
-            <p><em>If you want to contact me for work or something</em> </p>
-            <a href="#about" class="btt templatemo-slider-btn btn btn-default">Click Here</a>
-          </div>
-        </div>
-      </div>
-
-      <button type="button" class="carousel-control-prev bttt" data-bs-target="#carousel-non-automated" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </button>
-      <button type="button" class="bttt carousel-control-next" data-bs-target="#carousel-non-automated" data-bs-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </button>
     </div>
-  </div>
+
+  </nav>
+  <section id="topside">
+    <div class="container-fluid">
+      <!-- here we created the navigation bar for our Website -->
+
+      <!-- so here we are going to  build a slide show with the use of the carasoul and it is automated and not has
+      any kind of manual support -->
+      <div class="carousel csg slide" id="carousel-non-automated" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- yoiu have to kleep atleast one active so that slideshow can run properly -->
+          <div class="carousel-item active">
+            <img src="resources/Slide/1.jpg" class="d-block w-100" alt="Coding1">
+            <div class="carousel-caption d-none d-md-block">
+              <h2> Ghansham Salunkhe </h2>
+              <p><em>Welcome to My site if want to know more about me below</em> </p>
+              <a href="#about" class="btt templatemo-slider-btn btn btn-default">Click Here</a>
+            </div>
+          </div>
+
+
+          <div class="carousel-item">
+            <img src="resources/Slide/2.jpg" class="d-block w-100" alt="Coding2">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Coding Skills</h2>
+              <p><em>If you want to know about my skills in Programming</em></p>
+              <a href="#about" class="btt templatemo-slider-btn btn btn-default">Click Here</a>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="resources/Slide/3.jpg" class="d-block w-100" alt="Coding3">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>My Works</h2>
+              <p><em>If you want to know about my works in Programming</em> </p>
+              <a href="#about" class="btt templatemo-slider-btn btn btn-default">Click Here</a>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="resources/Slide/4.jpg" class="d-block w-100" alt="Coding3">
+            <div class="carousel-caption d-none d-md-block">
+              <h2> Contacts </h2>
+              <p><em>If you want to contact me for work or something</em> </p>
+              <a href="#about" class="btt templatemo-slider-btn btn btn-default">Click Here</a>
+            </div>
+          </div>
+        </div>
+
+        <button type="button" class="carousel-control-prev bttt" data-bs-target="#carousel-non-automated" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button type="button" class="bttt carousel-control-next" data-bs-target="#carousel-non-automated" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="next bg-light">
+      <img src="resources/profile.png" class="image" alt="Ghansham-image">
+      <h3>Hello</h3>
+      <p>I love to do coding and I have good hand in the programming languages like <br>
+        C, C++, HTML, CSS, JS, Python, and i'm currently studying Full-Stack <br>
+        Development course and Java Programming language.</p>
+    </div>
+
+  </section>
 
 
   <script src="resources/master.js" charset="utf-8"></script>
