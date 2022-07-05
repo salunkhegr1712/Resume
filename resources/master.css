@@ -149,6 +149,20 @@ i {
   color: #ffa400;
 }
 
+.mywork {
+  text-align: center;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 3% ;
+  padding-bottom: 3% ;
+}
+.project {
+  width: 50%;
+  padding: 5% 0;
+}
+
+
 /* media queries such that we can modify behaviour */
 @media (min-width:814px) and (max-width: 1269px ) {
 
