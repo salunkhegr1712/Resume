@@ -1,8 +1,9 @@
 body {}
 
 .navbar {
+  background-color: #F1EEf1;
   padding: 0 15%;
-  position: sticky;
+  position: fixed;
 }
 
 .container-fluid {
@@ -11,7 +12,7 @@ body {}
 
 #new {
   font-family: 'Noto Sans', sans-serif;
-  color: white;
+  color: #413F42;
   font-size: 2.3rem;
   font-weight: bolder;
   padding-left: 1%;
@@ -27,17 +28,17 @@ li {
   font-size: 1.4rem;
   font-weight: 700;
 }
+
 .nav-item {
   padding: 1% 0;
 }
+
 .nav-link:hover {
-  background-color: #ffa400;
+  color: #ffa400;
 }
+
 .collapse {
   padding: .5% 0;
-}
-.nav-link:hover {
-  color: white;
 }
 
 #new:hover {
@@ -99,11 +100,11 @@ em {
 }
 
 .next {
-  color: #;
   padding: 5% 0;
   text-align: center;
 }
-.image{
+
+.image {
   width: 15%;
   padding-bottom: 2%;
   border-radius: 10rem;
@@ -121,4 +122,51 @@ p {
   font-family: 'Noto Sans', sans-serif;
   font-weight: bold;
   line-height: 2;
+}
+
+.next-next {
+  background-color: #F1EEf1;
+  text-align: center;
+  align-items: center;
+  padding: 3% 12.5%;
+}
+
+.skill {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.card-header {
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+i {
+  font-family: 'Noto Sans', sans-serif;
+  font-style: normal;
+  font-size: 2.2rem;
+  color: #ffa400;
+}
+
+/* media queries such that we can modify behaviour */
+@media (min-width:814px) and (max-width: 1269px ) {
+
+  .carousel-caption {
+  margin-bottom: auto;
+  }
+  .container-fluid {
+    margin-top: 3%;
+  }
+}
+@media (max-width:813px) {
+  .carousel-caption {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar{
+    padding-right: .7%;
+  }
 }

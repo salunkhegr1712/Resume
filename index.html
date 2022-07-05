@@ -11,32 +11,37 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="resources/master.css">
+  <link rel="icon" href="resources/favicon.ico">
 
   <title></title>
 </head>
 
 <body>
 
-  <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
-    <a href="#" class="navbar-brand" id="new">Ghansham's Website</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nvv1" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="nvv1">
-      <ul class="navbar-nav ms-auto">
-        <!-- navbar-nav will remove the unordered blocks or bullets which we see specifically -->
-        <!-- nav-item is list attribute so  that it can be used for showing the textsis in a navigation bar -->
-        <li class="nav-item"><a href="#topside" class="nav-link">Home</a></li>
-        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-        <li class="nav-item"><a href="#Portfolio" class="nav-link">Portfolio</a></li>
-        <li class="nav-item"><a href="#contact" class="nav-link">Contacts</a></li>
-      </ul>
-
-    </div>
-
-  </nav>
   <section id="topside">
+    <nav class="navbar fixed-top bg-light navbar-expand-lg">
+      <a href="#" class="navbar-brand" id="new">Ghansham's Website</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nvv1" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nvv1">
+        <ul class="navbar-nav ms-auto">
+          <!-- navbar-nav will remove the unordered blocks or bullets which we see specifically -->
+          <!-- nav-item is list attribute so  that it can be used for showing the textsis in a navigation bar -->
+          <li class="nav-item"><a href="#topside" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#Portfolio" class="nav-link">Portfolio</a></li>
+          <li class="nav-item"><a href="#work" class="nav-link">Work</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contacts</a></li>
+        </ul>
+
+      </div>
+
+    </nav>
+
     <div class="container-fluid">
+
+
       <!-- here we created the navigation bar for our Website -->
 
       <!-- so here we are going to  build a slide show with the use of the carasoul and it is automated and not has
@@ -47,8 +52,8 @@
           <div class="carousel-item active">
             <img src="resources/Slide/1.jpg" class="d-block w-100" alt="Coding1">
             <div class="carousel-caption d-none d-md-block">
-              <h2> Ghansham Salunkhe </h2>
-              <p><em>Welcome to My site if want to know more about me below</em> </p>
+              <h2> Welcome! I'm Ghansham </h2>
+              <p><em>if want to know more about me below</em> </p>
               <a href="#about" class="btt templatemo-slider-btn btn btn-default">Click Here</a>
             </div>
           </div>
@@ -92,8 +97,9 @@
     </div>
   </section>
 
+<!-- about with image and text -->
   <section id="about">
-    <div class="next bg-light">
+    <div class="next">
       <img src="resources/profile.png" class="image" alt="Ghansham-image">
       <h3>Hello</h3>
       <p>I love to do coding and I have good hand in the programming languages like <br>
@@ -101,6 +107,155 @@
         Development course and Java Programming language.</p>
     </div>
 
+  </section>
+<!-- portfolio section using card -->
+  <section id="Portfolio" class="next-next">
+    <h3>Coding, Software & other Skills</h3> <br><br>
+    <div class="row">
+
+      <div class="col-lg-3 col-md-4 skill">
+        <div class="card">
+          <div class="card-header">
+            HTML & CSS
+          </div>
+          <div class="card-body">
+            <i>★</i><i>★</i><i>★</i><i>★</i><i>★</i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 skill">
+        <div class="card">
+          <div class="card-header">
+            JavaScript & Jquery
+          </div>
+          <div class="card-body">
+            <i>★</i><i>★</i><i>★</i><i>★</i><i>★</i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 skill">
+        <div class="card">
+          <div class="card-header">
+            Python
+          </div>
+          <div class="card-body">
+            <i>★</i><i>★</i><i>★</i><i>★</i>
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-3 col-md-4 skill">
+        <div class="card">
+          <div class="card-header">
+            C++ & Data Structure
+          </div>
+          <div class="card-body">
+            <i>★</i><i>★</i><i>★</i><i>★</i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 skill">
+        <div class="card">
+          <div class="card-header">
+            DevOps (git)
+          </div>
+          <div class="card-body">
+            <i>★</i><i>★</i><i>★</i><i>★</i><i>★</i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 skill">
+        <div class="card">
+          <div class="card-header">
+            NodeJs & Backend
+          </div>
+          <div class="card-body">
+            <i>★</i><i>★</i><i>★</i><i>★</i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 skill">
+        <div class="card">
+          <div class="card-header">
+            Data-Science
+          </div>
+          <div class="card-body">
+            <i>★</i><i>★</i><i>★</i><i>★</i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 skill">
+        <div class="card">
+          <div class="card-header">
+            Presentation & Excell
+          </div>
+          <div class="card-body">
+            <i>★</i><i>★</i><i>★</i><i>★</i>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="col-lg-3 col-md-4 skill">
+        <div class="card">
+          <div class="card-header">
+            Assembly & Shell
+          </div>
+          <div class="card-body">
+            <i>★</i><i>★</i><i>★</i><i>★</i>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-3 col-md-4 skill">
+        <div class="card">
+          <div class="card-header">
+            MySQL & PHP
+          </div>
+          <div class="card-body">
+            <i>★</i><i>★</i><i>★</i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 skill">
+        <div class="card">
+          <div class="card-header">
+            Socket-Programming
+          </div>
+          <div class="card-body">
+            <i>★</i><i>★</i><i>★</i><i>★</i>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-3 col-md-4 skill">
+        <div class="card">
+          <div class="card-header">
+            Kernal Coding
+          </div>
+          <div class="card-body">
+            <i>★</i><i>★</i><i>★</i>
+          </div>
+        </div>
+      </div> -->
+
+
+
+    </div>
+    <div class="mywork" id="work">
+      hello
+
+    </div>
   </section>
 
 
