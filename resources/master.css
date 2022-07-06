@@ -125,15 +125,14 @@ p {
 }
 
 .next-next {
-  background-color: #F1EEf1;
+
   text-align: center;
   align-items: center;
   padding: 3% 12.5%;
 }
 
 .skill {
-  margin-top: 1%;
-  margin-bottom: 1%;
+  margin: 2% 0;
 }
 
 .card-header {
@@ -150,15 +149,21 @@ i {
 }
 
 .mywork {
-  text-align: center;
-  align-items: center;
   margin-left: 10%;
   margin-right: 10%;
+
+
+}
+.workk {
+
   padding-top: 3% ;
   padding-bottom: 3% ;
+  text-align: center;
+  align-items: center;
+  background-color: #F1EEf1;
 }
 .project {
-  width: 50%;
+  width: 40%;
   padding: 5% 0;
 }
 
