@@ -126,7 +126,7 @@ p {
 }
 
 .next-next {
-
+  background-color: #F1EEf1;
   text-align: center;
   align-items: center;
   padding: 3% 12.5%;
@@ -152,15 +152,15 @@ i {
 .mywork {
   margin-left: 20%;
   margin-right: 20%;
-
 }
+
 .workk {
-  padding-top: 3% ;
-  padding-bottom: 3% ;
+  padding-top: 3%;
+  padding-bottom: 3%;
   text-align: center;
   align-items: center;
-  background-color: #F1EEf1;
 }
+
 .project {
   width: 30%;
   padding: 5% 0;
@@ -184,22 +184,32 @@ i {
 
 .nothing {
   color: white;
-  margin: 1% .5%;
+  margin: 1%;
+  padding: 0.9% 1.1%;
+  border-radius: 50%;
+  border: solid 1px white;
 }
-.nothing:hover{
+
+.nothing:hover {
   color: #ffa400;
-
+  background-color: white;
 }
-/* media queries such that we can modify behaviour */
-@media (min-width:814px) and (max-width: 1269px ) {
 
+.h5 {
+  line-height: 1.5;
+}
+
+/* media queries such that we can modify behaviour */
+@media (min-width:814px) and (max-width: 1269px) {
   .carousel-caption {
-  margin-bottom: auto;
+    margin-bottom: auto;
   }
+
   .container-fluid {
     margin-top: 3%;
   }
 }
+
 @media (max-width:813px) {
   .carousel-caption {
     visibility: hidden;
@@ -207,7 +217,7 @@ i {
 }
 
 @media (max-width: 600px) {
-  .navbar{
+  .navbar {
     padding-right: .7%;
   }
 }
