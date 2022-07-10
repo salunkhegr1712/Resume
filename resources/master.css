@@ -113,7 +113,7 @@ em {
 h3 {
   font-family: 'Architects Daughter', cursive;
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #ffa400;
   padding: 1% 0;
 }
@@ -122,6 +122,7 @@ p {
   font-family: 'Noto Sans', sans-serif;
   font-weight: bold;
   line-height: 2;
+  font-size: .9rem;
 }
 
 .next-next {
@@ -149,13 +150,11 @@ i {
 }
 
 .mywork {
-  margin-left: 10%;
-  margin-right: 10%;
-
+  margin-left: 20%;
+  margin-right: 20%;
 
 }
 .workk {
-
   padding-top: 3% ;
   padding-bottom: 3% ;
   text-align: center;
@@ -163,11 +162,34 @@ i {
   background-color: #F1EEf1;
 }
 .project {
-  width: 40%;
+  width: 30%;
   padding: 5% 0;
 }
 
+.contt {
+  background-color: #676B6E;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 2.5% 0;
+}
 
+.cont {
+  color: white;
+  background-color: #37393B;
+  align-items: center;
+  text-align: center;
+  padding: 2.5% 0;
+}
+
+.nothing {
+  color: white;
+  margin: 1% .5%;
+}
+.nothing:hover{
+  color: #ffa400;
+
+}
 /* media queries such that we can modify behaviour */
 @media (min-width:814px) and (max-width: 1269px ) {
 
