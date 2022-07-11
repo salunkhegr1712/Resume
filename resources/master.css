@@ -1,223 +1,173 @@
-body {}
-
 .navbar {
-  background-color: #F1EEf1;
-  padding: 0 15%;
-  position: fixed;
+     padding: 0 15%;
+     position: fixed;
 }
-
-.container-fluid {
-  padding: 0 0;
+ .navbar, .next-next {
+     background-color: #F1EEf1;
 }
-
-#new {
-  font-family: 'Noto Sans', sans-serif;
-  color: #413F42;
-  font-size: 2.3rem;
-  font-weight: bolder;
-  padding-left: 1%;
-  padding-right: 1%;
+ .container-fluid {
+     padding: 0 0;
 }
-
-li {
-  padding-left: 1.5%;
-  padding-right: 1.5%;
+ #new {
+     color: #413F42;
+     font-size: 2.3rem;
+     font-weight: bolder;
+     padding-left: 1%;
+     padding-right: 1%;
 }
-
-.nav-link {
-  font-size: 1.4rem;
-  font-weight: 700;
+ i, p, #new {
+     font-family: 'Noto Sans', sans-serif;
 }
-
-.nav-item {
-  padding: 1% 0;
+ li {
+     padding: auto 1.5%;
 }
-
-.nav-link:hover {
-  color: #ffa400;
+ .nav-link {
+     font-size: 1.4rem;
+     font-weight: 700;
 }
-
-.collapse {
-  padding: .5% 0;
+ .nav-item {
+     padding: 1% 0;
 }
-
-#new:hover {
-  color: #ffa400;
+ .collapse {
+     padding: .5% 0;
 }
-
-.bttt {
-  color: black;
+ .bttt {
+     color: black;
 }
-
-.btt {
-  margin-top: 1%;
-  background-color: #ffa400;
-  padding: .5% 6%;
-  font-size: 1.3rem;
-  font-weight: bold;
-  color: white;
+ .btt {
+     margin-top: 1%;
+     background-color: #ffa400;
+     padding: .5% 6%;
+     font-size: 1.3rem;
+     font-weight: bold;
 }
-
-.btt:hover {
-  color: #ffa400;
-  background-color: white;
+ .btt:hover, .nothing:hover {
+     background-color: white;
 }
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  height: 7rem;
-  width: 7rem;
-  outline: black;
-  background-image: none;
+ .carousel-control-prev-icon, .carousel-control-next-icon {
+     font-size: 4rem;
+     height: 7rem;
+     width: 7rem;
+     outline: black;
+     background-image: none;
 }
-
-.carousel-control-next-icon:after {
-  content: '⇒';
-  font-size: 4rem;
-  color: white;
+ .carousel-control-next-icon:after {
+     content: '⇒';
 }
-
-.carousel-control-prev-icon:after {
-  content: '⇐';
-  font-size: 4rem;
-  color: white;
+ .carousel-control-prev-icon:after {
+     content: '⇐';
 }
-
-.carousel-caption {
-  align-items: center;
-  margin-top: 4rem;
-  margin-bottom: 15%;
+ .carousel-caption {
+     align-items: center;
+     margin-top: 4rem;
+     margin-bottom: 15%;
 }
-
-h2 {
-  font-family: 'Architects Daughter', cursive;
-  font-weight: bold;
-  font-size: 3.5rem;
+ h2, h3 {
 }
-
-em {
-  font-size: 1.2rem;
+ h2 {
+     font-family: 'Architects Daughter', cursive;
+     font-weight: bold;
+     font-size: 3.5rem;
 }
-
-.next {
-  padding: 5% 0;
-  text-align: center;
+ em {
+     font-size: 1.2rem;
 }
-
-.image {
-  width: 15%;
-  padding-bottom: 2%;
-  border-radius: 10rem;
+ .next {
+     padding: 5% 0;
+     text-align: center;
 }
-
-h3 {
-  font-family: 'Architects Daughter', cursive;
-  font-weight: bold;
-  font-size: 3rem;
-  color: #ffa400;
-  padding: 1% 0;
+ .image {
+     width: 15%;
+     padding-bottom: 2%;
+     border-radius: 10rem;
 }
-
-p {
-  font-family: 'Noto Sans', sans-serif;
-  font-weight: bold;
-  line-height: 2;
-  font-size: .9rem;
+ h3 {
+     color: #ffa400;
+     font-family: 'Architects Daughter', cursive;
+     font-weight: bold;
+     font-size: 3rem;
+     padding: 1% 0;
 }
-
-.next-next {
-  background-color: #F1EEf1;
-  text-align: center;
-  align-items: center;
-  padding: 3% 12.5%;
+ i, .nothing:hover, .btt:hover, .nav-link:hover, #new:hover {
+     color: #ffa400;
 }
-
-.skill {
-  margin: 2% 0;
+ p {
+     font-family: 'Noto Sans', sans-serif;
+     font-weight: bold;
+     line-height: 2;
+     font-size: .9rem;
 }
-
-.card-header {
-  font-size: 1.5rem;
-  font-style: italic;
-  font-weight: bold;
+ .next-next {
+     text-align: center;
+     align-items: center;
+     padding: 3% 12.5%;
 }
-
-i {
-  font-family: 'Noto Sans', sans-serif;
-  font-style: normal;
-  font-size: 2.2rem;
-  color: #ffa400;
+ .skill {
+     margin: 2% 0;
 }
-
-.mywork {
-  margin-left: 20%;
-  margin-right: 20%;
+ .card-header {
+     font-size: 1.5rem;
+     font-style: italic;
+     font-weight: bold;
 }
-
-.workk {
-  padding-top: 3%;
-  padding-bottom: 3%;
-  text-align: center;
-  align-items: center;
+ i {
+     font-style: normal;
+     font-size: 2.2rem;
 }
-
-.project {
-  width: 30%;
-  padding: 5% 0;
+ .mywork {
+     margin-left: 20%;
+     margin-right: 20%;
 }
-
-.contt {
-  background-color: #676B6E;
-  align-items: center;
-  text-align: center;
-  color: white;
-  padding: 2.5% 0;
+ .workk {
+     padding-top: 3%;
+     padding-bottom: 3%;
+     text-align: center;
+     align-items: center;
 }
-
-.cont {
-  color: white;
-  background-color: #37393B;
-  align-items: center;
-  text-align: center;
-  padding: 2.5% 0;
+ .project {
+     width: 30%;
+     padding: 5% 0;
 }
-
-.nothing {
-  color: white;
-  margin: 1%;
-  padding: 0.9% 1.1%;
-  border-radius: 50%;
-  border: solid 1px white;
+ .cont, .contt, .nothing, .btt, .carousel-control-next-icon:after, .carousel-control-prev-icon:after {
+     color: white;
 }
-
-.nothing:hover {
-  color: #ffa400;
-  background-color: white;
+ .contt {
+     background-color: #676B6E;
+     align-items: center;
+     text-align: center;
+     padding: 2.5% 0;
 }
-
-.h5 {
-  line-height: 1.5;
+ .cont {
+     background-color: #37393B;
+     align-items: center;
+     text-align: center;
+     padding: 2.5% 0;
 }
-
+ .nothing {
+     margin: 1%;
+     padding: 0.9% 1.1%;
+     border-radius: 50%;
+     border: solid 1px white;
+}
+ .h5 {
+     line-height: 1.5;
+}
 /* media queries such that we can modify behaviour */
-@media (min-width:814px) and (max-width: 1269px) {
-  .carousel-caption {
-    margin-bottom: auto;
-  }
-
-  .container-fluid {
-    margin-top: 3%;
-  }
+ @media (min-width:814px) and (max-width: 1269px) {
+     .carousel-caption {
+         margin-bottom: auto;
+    }
+     .container-fluid {
+         margin-top: 3%;
+    }
 }
-
-@media (max-width:813px) {
-  .carousel-caption {
-    visibility: hidden;
-  }
+ @media (max-width:813px) {
+     .carousel-caption {
+         visibility: hidden;
+    }
 }
-
-@media (max-width: 600px) {
-  .navbar {
-    padding-right: .7%;
-  }
+ @media (max-width: 600px) {
+     .navbar {
+         padding-right: .7%;
+    }
 }
