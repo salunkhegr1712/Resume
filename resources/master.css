@@ -105,6 +105,23 @@
  .skill {
      margin: 2% 0;
 }
+.btn-lg {
+  background-color:#ffa400;;
+  padding: 2% 35%;
+  margin: 2% 0;
+  border: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+
+}
+a:hover {
+  color: white;
+
+}
  .card-header {
      font-size: 1.5rem;
      font-style: italic;
