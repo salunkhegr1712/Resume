@@ -107,7 +107,7 @@
 }
 .btn-lg {
   background-color:#ffa400;;
-  padding: 2% 35%;
+  padding: 2% 30%;
   margin: 2% 0;
   border: none;
 }
@@ -187,4 +187,10 @@ a:hover {
      .navbar {
          padding-right: .7%;
     }
+}
+@media (max-width:1170px) and (min-width:700px) {
+  .btn-lg {
+    padding: 2% 16%;
+
+  }
 }
